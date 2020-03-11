@@ -1,4 +1,4 @@
-node ('docker') {
+node ('docker_node') {
 
     stage ('Git Repository') {
         git 'https://github.com/venkychowdary/spring-petclinic.git'
